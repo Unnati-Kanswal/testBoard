@@ -18,19 +18,20 @@ Files and Folder Structure
 - controller folder
 - config folder
 
--Frontend
-.commands used : npm create vite @latest .
-npm i
-npm run dev
-
-\*created pages
-.SignIn
-.SignUp
-.Home
-
 step 2:
 . created server using express
 . created schema and model
 . database connection established
 . created routes
 . created controllers for signup,signin,crud of task and board
+
+-Frontend
+.commands used : npm create vite @latest .
+npm i
+npm run dev
+
+- created pages
+  .SignIn
+  .SignUp
+  .Home
+  \*Tailwind css configuration
