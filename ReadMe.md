@@ -2,7 +2,7 @@ MongoDB, ExpressJs, ReactJs, NodeJs
 
 - command to run Backend : npm run dev
 - command to run frontend : npm run dev
-
+  # Note: The pictures folder conatains the screenshots of the Project.
 - APIs tested using Postman
   packages used : express, mongoose(for connecting to mongodb,schema,model), bcryptjs(for password hashing),dotenv(to access env variables)
   react-router-dom(for navigation)
