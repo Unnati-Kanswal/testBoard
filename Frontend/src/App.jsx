@@ -5,12 +5,14 @@ import Signup from "./pages/signup";
 import Header from "./components/Header";
 
 export default function App() {
-  <BrowserRouter>
-    <Header />
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="signin" element={<Signin />} />
-      <Route path="/signup" element={<Signup />} />
-    </Routes>
-  </BrowserRouter>;
+  return (
+    <BrowserRouter>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/signin" element={<Signin />} />
+        <Route path="/signup" element={<Signup />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
