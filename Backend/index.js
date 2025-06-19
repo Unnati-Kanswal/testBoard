@@ -7,6 +7,8 @@ import createTaskRouter from "./router/task.router.js";
 import getTaskRouter from "./router/task.router.js";
 import updateTaskRouter from "./router/task.router.js";
 import delTaskRouter from "./router/task.router.js";
+import signupRouter from "./router/user.route.js";
+import signinRouter from "./router/user.route.js";
 
 dotenv.config();
 const app = express();
@@ -24,3 +26,6 @@ app.use("/api/board/task", createTaskRouter);
 app.use("/api/board/task", getTaskRouter);
 app.use("/api/board/task", updateTaskRouter);
 app.use("/api/board/task", delTaskRouter);
+
+app.use("/api/user", signupRouter);
+app.use("/api/user", signinRouter);
